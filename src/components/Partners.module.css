@@ -1,0 +1,59 @@
+.partners {
+  background-color: #fff;
+  width: 100vw;
+  margin: 64px 0;
+  /* added to suspense horizontal scrolling */
+  max-width: 100%;
+}
+
+.partnersHeading {
+  width: 100vw;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2f2e2e;
+  /* added to suspense horizontal scrolling */
+  max-width: 100%;
+}
+
+.partnersLogos {
+  /* css grid container */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* seven columns */
+  justify-items: center; /* x-axis */
+  align-items: end; /* y-axis */
+  grid-row-gap: 32px; /* between rows */
+  /* added to suspense horizontal scrolling */
+  max-width: 100%;
+}
+
+.partnersLogos a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.partners img {
+  height: 90px;
+  width: 135px;
+}
+
+/* responsive partners section */
+@media (max-width: 1050px) {
+  /* !!!!!! */
+  .partnersLogos {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .spanImg {
+    grid-column-end: span 2;
+  }
+}
+
+@media (max-width: 660px) {
+  .partnersLogos {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .spanImg {
+    grid-column-end: span 1;
+  }
+}

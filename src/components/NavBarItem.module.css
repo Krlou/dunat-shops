@@ -1,0 +1,36 @@
+.navBarItem {
+  margin: 0 16px;
+  padding: 0;
+}
+
+.navBarItem a {
+  text-decoration: none;
+  color: #ce2026;
+  font-size: 16px;
+}
+
+.navBarItem a:hover,
+.navBarItem a:active,
+.navBarItem a:focus {
+  color: #2f2e2e;
+}
+
+.mobileNavItem {
+  margin: 0;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.mobileNavItem a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #ce2026;
+  padding: 0.2rem 0;
+}
+
+.mobileNavItem a:hover,
+.mobileNavItem a:focus,
+.mobileNavItem a:active {
+  cursor: pointer;
+  color: #2f2e2e;
+}

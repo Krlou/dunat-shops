@@ -1,0 +1,19 @@
+.pageHeader {
+  z-index: 500;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #fff;
+  border-bottom: 2px solid #ce2026;
+  margin: 0;
+  font-size: 16px;
+  /* flex container element */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  /* added to suspense horizontal scrolling */
+  max-width: 100%;
+}

@@ -1,0 +1,10 @@
+.navBar {
+  /* flex item element */
+  padding: 0 16px;
+}
+
+@media (max-width: 1000px) {
+  .navBar {
+    display: none;
+  }
+}

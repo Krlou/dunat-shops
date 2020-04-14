@@ -1,0 +1,33 @@
+.contactSection {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 32px;
+  background-color: #2f2e2e;
+  font-size: 16px;
+  color: #fff;
+  /*flex container element*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  /* added to suspense horizontal scrolling */
+  max-width: 100%;
+}
+
+.contactSection div {
+  margin: 8px 32px;
+}
+
+.contactSection p {
+  text-align: center;
+  margin: 0;
+}
+
+/* responsive footer section */
+@media (max-width: 800px) {
+  .contactSection {
+    padding: 16px;
+    flex-direction: column;
+  }
+}

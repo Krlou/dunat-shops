@@ -1,0 +1,29 @@
+.navBarItem {
+  margin: 0 16px;
+  padding: 0;
+}
+
+.navBarItem button {
+  text-decoration: none;
+  color: #ce2026;
+  font-size: 16px;
+  padding: 0;
+  border: 0;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+}
+
+.navBarItem button:hover {
+  outline: none;
+  color: #2f2e2e;
+}
+
+.english {
+  border-right: 1px solid #ce2026 !important;
+  padding-right: 1.5px !important;
+}
+
+.serbian {
+  padding-left: 1.5px !important;
+}

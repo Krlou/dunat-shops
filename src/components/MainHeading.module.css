@@ -1,0 +1,37 @@
+.headingSection {
+  width: 100vw;
+  height: calc(70vh + 86px);
+  background-color: #eee;
+  background-image: url("../assets/images/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  /* added to suspense horizontal scrolling */
+  max-width: 100%;
+}
+
+/* responsive background image for various devices width */
+@media (max-width: 1550px) {
+  .headingSection {
+    background-image: url("../assets/images/bg-img-croped.jpg");
+  }
+}
+
+@media (max-width: 1100px) {
+  .headingSection {
+    background-image: url("../assets/images/bg-img-croped-tablet.jpg");
+    background-position: center;
+  }
+}
+
+@media (max-width: 840px) {
+  .headingSection {
+    background-image: url("../assets/images/bg-img-croped-mobile.jpg");
+  }
+}
+
+@media (max-width: 660px) {
+  .headingSection {
+    background-image: url("../assets/images/bg-img-croped-small-devs.jpg");
+  }
+}

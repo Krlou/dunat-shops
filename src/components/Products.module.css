@@ -1,0 +1,48 @@
+.productsSection {
+  background-color: #ce2026;
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+  width: 100vw;
+  /* flex container element */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  /* added to suspense horizontal scrolling */
+  max-width: 100%;
+}
+
+.productsSection div {
+  margin: 8px 0;
+  padding: 8px 16px;
+  border-right: 1px solid white;
+}
+
+/* responsive products section */
+@media (max-width: 800px) {
+  .productsSection {
+    font-size: 16px;
+  }
+
+  .productsSection div {
+    padding: 8px 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .productsSection {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 350px) {
+  .productsSection {
+    font-size: 10px;
+  }
+
+  .productsSection div {
+    padding: 8px 4px;
+  }
+}
