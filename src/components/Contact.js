@@ -6,7 +6,7 @@ import phoneIcon from "../assets/images/icons/phone-icon.svg";
 
 import classes from "./Contact.module.css";
 
-const contact = props => {
+const contact = (props) => {
   return (
     <footer id="contactId" className={classes.contactSection}>
       <div>
@@ -35,7 +35,7 @@ const contact = props => {
           />
           <strong>{props.isSerbian ? "TELEFON" : "CALL US"}</strong>
         </p>
-        <p>+3817584754</p>
+        <p>(011)32-88-248</p>
       </div>
       <div>
         <p style={{ color: "#ce2026" }}>

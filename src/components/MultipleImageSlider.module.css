@@ -3,11 +3,10 @@
   width: 100vw;
   height: calc(70vh + 86px);
   margin: 0;
-  /* flex container element */
+
   display: flex;
   justify-content: center;
   align-content: center;
-  /* added to suspense horizontal scrolling */
   max-width: 100%;
 }
 
@@ -19,7 +18,7 @@
 .slide img {
   width: 100%;
   height: 100%;
-  image-orientation: from-image; /* work in mozzila firefox */
+  image-orientation: from-image;
 }
 
 .sideSlide {

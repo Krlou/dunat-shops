@@ -6,7 +6,7 @@ class OneImageSlider extends Component {
   exitSlideshow = null;
 
   state = {
-    slideIndex: 0
+    slideIndex: 0,
   };
 
   componentDidMount() {
@@ -18,7 +18,6 @@ class OneImageSlider extends Component {
   }
 
   showSlides = () => {
-    //console.log("slideshow");
     let slides = document.getElementsByClassName(classes.mySlides);
 
     for (let i = 0; i < slides.length; i++) {
@@ -34,7 +33,7 @@ class OneImageSlider extends Component {
   };
 
   render() {
-    let slides = this.props.images.map(image => {
+    let slides = this.props.images.map((image) => {
       return (
         <div className={classes.mySlides} key={image}>
           <img src={image} alt="" style={{ width: "100%" }} />

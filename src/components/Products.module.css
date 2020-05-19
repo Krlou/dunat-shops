@@ -4,13 +4,12 @@
   font-size: 20px;
   padding: 8px;
   width: 100vw;
-  /* flex container element */
+
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  /* added to suspense horizontal scrolling */
   max-width: 100%;
 }
 
@@ -18,9 +17,9 @@
   margin: 8px 0;
   padding: 8px 16px;
   border-right: 1px solid white;
+  user-select: none;
 }
 
-/* responsive products section */
 @media (max-width: 800px) {
   .productsSection {
     font-size: 16px;

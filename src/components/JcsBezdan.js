@@ -17,6 +17,9 @@ import img8 from "../assets/images/jcs-bezdan/img8-wide.jpg";
 import img9 from "../assets/images/jcs-bezdan/img9-wide.jpg";
 import img10 from "../assets/images/jcs-bezdan/img10-wide.jpg";
 import img11 from "../assets/images/jcs-bezdan/img11-wide.jpg";
+import img12 from "../assets/images/jcs-bezdan/img12-wide.jpg";
+import img13 from "../assets/images/jcs-bezdan/img13-wide.jpg";
+import img14 from "../assets/images/jcs-bezdan/img14-wide.jpg";
 
 import img1Pro from "../assets/images/jcs-bezdan/img1-pro.jpg";
 import img2Pro from "../assets/images/jcs-bezdan/img2-pro.jpg";
@@ -38,6 +41,13 @@ import img5Tablet from "../assets/images/jcs-bezdan/img5-tablet.jpg";
 import img6Tablet from "../assets/images/jcs-bezdan/img6-tablet.jpg";
 import img7Tablet from "../assets/images/jcs-bezdan/img7-tablet.jpg";
 import img8Tablet from "../assets/images/jcs-bezdan/img8-tablet.jpg";
+import img9Tablet from "../assets/images/jcs-bezdan/img9-tablet.jpg";
+import img10Tablet from "../assets/images/jcs-bezdan/img10-tablet.jpg";
+import img11Tablet from "../assets/images/jcs-bezdan/img11-tablet.jpg";
+import img12Tablet from "../assets/images/jcs-bezdan/img12-tablet.jpg";
+import img13Tablet from "../assets/images/jcs-bezdan/img13-tablet.jpg";
+import img14Tablet from "../assets/images/jcs-bezdan/img14-tablet.jpg";
+import img15Tablet from "../assets/images/jcs-bezdan/img15-tablet.jpg";
 
 import img1Phone from "../assets/images/jcs-bezdan/img1-phone.jpg";
 import img2Phone from "../assets/images/jcs-bezdan/img2-phone.jpg";
@@ -50,10 +60,12 @@ import img8Phone from "../assets/images/jcs-bezdan/img8-phone.jpg";
 import img9Phone from "../assets/images/jcs-bezdan/img9-phone.jpg";
 import img10Phone from "../assets/images/jcs-bezdan/img10-phone.jpg";
 import img11Phone from "../assets/images/jcs-bezdan/img11-phone.jpg";
+import img12Phone from "../assets/images/jcs-bezdan/img12-phone.jpg";
+import img13Phone from "../assets/images/jcs-bezdan/img13-phone.jpg";
 
-const jcsBezdan = props => {
-  let images = []; //also add images in array
-  let width = window.innerWidth; //current device width
+const jcsBezdan = (props) => {
+  let images = [];
+  let width = window.innerWidth;
   if (width > 1050) {
     //laptops
     images = [
@@ -67,7 +79,10 @@ const jcsBezdan = props => {
       img8,
       img9,
       img10,
-      img11
+      img11,
+      img12,
+      img13,
+      img14,
     ];
   } else if (width > 950) {
     //ipadPro
@@ -82,7 +97,7 @@ const jcsBezdan = props => {
       img8Pro,
       img9Pro,
       img10Pro,
-      img11Pro
+      img11Pro,
     ];
   } else if (width > 500) {
     //tablets
@@ -94,7 +109,14 @@ const jcsBezdan = props => {
       img5Tablet,
       img6Tablet,
       img7Tablet,
-      img8Tablet
+      img8Tablet,
+      img9Tablet,
+      img10Tablet,
+      img11Tablet,
+      img12Tablet,
+      img13Tablet,
+      img14Tablet,
+      img15Tablet,
     ];
   } else {
     //phone
@@ -109,7 +131,9 @@ const jcsBezdan = props => {
       img8Phone,
       img9Phone,
       img10Phone,
-      img11Phone
+      img11Phone,
+      img12Phone,
+      img13Phone,
     ];
   }
 

@@ -2,7 +2,6 @@
   background-color: #fff;
   width: 100vw;
   margin: 64px 0;
-  /* added to suspense horizontal scrolling */
   max-width: 100%;
 }
 
@@ -12,24 +11,24 @@
   font-size: 24px;
   font-weight: bold;
   color: #2f2e2e;
-  /* added to suspense horizontal scrolling */
   max-width: 100%;
+  user-select: none;
 }
 
 .partnersLogos {
-  /* css grid container */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* seven columns */
-  justify-items: center; /* x-axis */
-  align-items: end; /* y-axis */
-  grid-row-gap: 32px; /* between rows */
-  /* added to suspense horizontal scrolling */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: end;
+  grid-row-gap: 32px;
   max-width: 100%;
 }
 
 .partnersLogos a {
   text-decoration: none;
   cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .partners img {
@@ -37,9 +36,7 @@
   width: 135px;
 }
 
-/* responsive partners section */
 @media (max-width: 1050px) {
-  /* !!!!!! */
   .partnersLogos {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }

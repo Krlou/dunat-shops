@@ -6,11 +6,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  /* added to suspense horizontal scrolling */
   max-width: 100%;
 }
 
-/* responsive background image for various devices width */
 @media (max-width: 1550px) {
   .headingSection {
     background-image: url("../assets/images/bg-img-croped.jpg");

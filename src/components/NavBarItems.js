@@ -5,8 +5,7 @@ import Languages from "./Languages";
 
 import classes from "./NavBarItems.module.css";
 
-//add clicked property to navBarItem
-const navBarItems = props => {
+const navBarItems = (props) => {
   return (
     <ul
       className={props.isMobile ? classes.mobileNavItems : classes.navBarItems}

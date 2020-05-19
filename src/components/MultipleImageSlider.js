@@ -6,7 +6,7 @@ class MultipleImageSlider extends Component {
   exitSlideshow = null;
 
   state = {
-    slideIndex: 1
+    slideIndex: 1,
   };
 
   componentDidMount() {
@@ -18,7 +18,6 @@ class MultipleImageSlider extends Component {
   }
 
   showSlides = () => {
-    //console.log("slideshow");
     let slides = document.getElementsByClassName(classes.slide);
 
     let slideIndex = this.state.slideIndex;

@@ -1,6 +1,6 @@
 .navBarItems {
   list-style: none;
-  /* flex container element */
+
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -17,7 +17,6 @@
   text-align: center;
 }
 
-/* copy css for navItem because of Contact item */
 .navBarItem {
   margin: 0 16px;
   padding: 0;

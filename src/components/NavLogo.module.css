@@ -1,5 +1,10 @@
 .pageHeaderLogo img {
-  /* flex item element */
   width: 180px;
   height: 80px;
+}
+
+.pageHeaderLogo a {
+  outline: none;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
